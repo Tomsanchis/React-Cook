@@ -1,0 +1,63 @@
+$color_1: orange;
+$font-family_1: Arial, Helvetica, sans-serif;
+
+body {
+	font-family: $font-family_1;
+}
+h1 {
+	text-align: center;
+	color: $color_1;
+}
+img {
+	max-width: 100%;
+	width: 95%;
+	border-radius: 15px;
+}
+#input-search {
+	background-image: url('https://www.w3schools.com/css/searchicon.png');
+	background-position: 10px 12px;
+	background-repeat: no-repeat;
+	width: 15%;
+	font-size: 16px;
+	padding: 12px 20px 12px 40px;
+	border: 1px solid #ddd;
+	margin-bottom: 12px;
+}
+
+// .article-container {
+// 	text-align: center;
+// 	margin: 10px;
+// 	border: solid 1px orange;
+// 	border-radius: 25px;
+// 	padding: 0 40px 0 40px;
+// }
+p {
+	line-height: 35px;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1100px;
+}
+
+.flex-lunch {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+.flex-lunch div {
+	text-align: center;
+	margin: 10px;
+	border: solid 1px orange;
+	border-radius: 25px;
+	padding: 0 40px 0 40px;
+	width: 15%;
+}
+
+.input-container {
+	display: flex;
+	justify-content: center;
+}
