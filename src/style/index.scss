@@ -9,8 +9,7 @@ h1 {
 	color: $color_1;
 }
 img {
-	max-width: 100%;
-	width: 95%;
+	width: 90%;
 	border-radius: 15px;
 }
 #input-search {
@@ -23,44 +22,30 @@ img {
 	border: 1px solid #ddd;
 	margin-bottom: 12px;
 }
-
-// .article-container {
-// 	text-align: center;
-// 	margin: 10px;
-// 	border: solid 1px orange;
-// 	border-radius: 25px;
-// 	padding: 0 40px 0 40px;
-// }
 p {
 	line-height: 35px;
 }
-
 .container {
 	margin: 0 auto;
 	max-width: 1100px;
 }
-
 .flex-lunch {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 
+	.meals-container {
+		text-align: center;
+		margin: 10px;
+		border: solid 1px orange;
+		border-radius: 25px;
+		padding: 0 40px 0 40px;
+		width: 15%;
+		flex: 1 0 25%;
+	}
+	
 }
-
-.flex-lunch div {
-	text-align: center;
-	margin: 10px;
-	border: solid 1px orange;
-	border-radius: 25px;
-	padding: 0 40px 0 40px;
-	width: 15%;
-}
-
 .input-container {
 	display: flex;
 	justify-content: center;
-}
-
-.meals-container {
-	flex: 1 0 20%;
 }
