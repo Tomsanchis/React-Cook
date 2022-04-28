@@ -42,7 +42,6 @@ p {
 
 .flex-lunch {
 	display: flex;
-	align-items: center;
 	flex-wrap: wrap;
 	justify-content: center;
 
@@ -60,4 +59,8 @@ p {
 .input-container {
 	display: flex;
 	justify-content: center;
+}
+
+.meals-container {
+	flex: 1 0 20%;
 }
